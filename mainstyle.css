@@ -1,6 +1,6 @@
 body{
     background-color: #2A2A2A;
-    }
+}
 
 h1, h2, h3, h4, h5, p, ul{
     font-family: Helvetica, sans-serif;
@@ -36,6 +36,7 @@ p{
     font-size: 0.8vw;
 }
 
+
 .selection img{
     margin: auto;
     display: block;
@@ -49,6 +50,7 @@ p{
     margin-bottom: 1.3vw;
     margin-top: 0.3vw;
 }
+
 
 .bottombar{
     background-color: #555555;
@@ -76,6 +78,7 @@ p{
     background-color: #2A2A2A;
     color: #A94F2A;
 }
+
 
 @media screen and (max-width: 1000px) {
 
