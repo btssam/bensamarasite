@@ -57,9 +57,11 @@ p{
 
 
 .bottombar{
+    margin-top: 5vh;
     background-color: #555555;
     width: 50%;
-    margin:auto;
+    margin-left:auto;
+    margin-right:auto;
     text-align: center;
     font-size: 0.8vw;
 }

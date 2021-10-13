@@ -14,7 +14,6 @@
   
 /* Image for card */
 .thumbnail {
-    /*background-color: #2A2A2A; */
     width: 50%;
     float: left;
     height: 10vh;
@@ -51,12 +50,12 @@
 }
 
 .rightcolumn .card {
-    height: 153vh;
+    height: 149.5vh;
 }
 
 .innerbox{
     width: 100%;
-    height:100%;
+    height: 100%;
     background-color: #2A2A2A;
     border: 0.05vh solid white;
 }
