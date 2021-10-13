@@ -20,12 +20,12 @@ a{
     letter-spacing: 0.4vw;
 }
     
-.second-header{
+.second-header h2{
     padding-top: 1vh;
-    font-size: 0.9vw;
+    font-size: 1.2vw;
 }
 h2{
-    font-size: 1.2vw;
+    font-size: 2.2vw;
 }
 h3{
     font-size: 0.9vw;
@@ -34,7 +34,7 @@ h4{
     font-size: 0.8vw;
 }
 h5{
-    font-size: 0.6vw;
+    font-size: 0.7vw;
 }
 p{
     font-size: 0.8vw;
@@ -45,7 +45,7 @@ p{
     margin: auto;
     display: block;
     width: 52vw;
-    height: 55vh;
+    height: 52.5vh;
 }
 .selection:hover{
     opacity: 0.5;

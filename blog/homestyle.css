@@ -21,13 +21,16 @@
 }
 
 /* Text for card */
-
 .cardtext p{
-    font-size: 3.5vh;
+    font-size: 3.4vh;
     float: left;
     text-align:left;
     width: 40%;
     padding-left: 2.5vw;
+}
+
+.card h2{
+    font-size:1.2vw;
 }
   
 /* Add a card effect for articles */
@@ -38,16 +41,16 @@
     height: 45vh;
     padding-bottom:4vh;
 }
+
+.rightcolumn .card {
+    height: 153vh;
+}
   
 /* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
-}
-
-.rightcolumn .card {
-    height: 153vh;
 }
   
 /* Responsive layout - when the screen is less than 800px wide,
@@ -56,5 +59,9 @@ make the two columns stack on top of each other instead of next to each other */
     .leftcolumn, .rightcolumn {
       width: 100%;
       padding: 0;
+    }
+
+    .rightcolumn .card {
+        height: 22.5vh;
     }
 }
