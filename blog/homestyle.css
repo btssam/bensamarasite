@@ -14,15 +14,14 @@
   
 /* Image for card */
 .thumbnail {
-    background-color: #2A2A2A;
+    /*background-color: #2A2A2A; */
     width: 50%;
     float: left;
-    padding: 1.6vw;
     height: 10vh;
 }
 
 .leftcolumn .thumbnail{
-    height:40vh;
+    height:45vh;
 }
 
 .thumbnail img{
@@ -31,15 +30,12 @@
 }
 
 /* Text for card */
-.cardtext{
-    background-color: #2A2A2A;
-}
 .cardtext p{
     font-size: 3.4vh;
     float: left;
     text-align:left;
-    width: 40%;
-    padding-left: 2.5vw;
+    width: 45%;
+    padding-left: 2vw;
 }
 
 .card h2{
@@ -52,11 +48,17 @@
     padding: 1vw;
     margin-top: 3vh;
     height: 45vh;
-    padding-bottom:4vh;
 }
 
 .rightcolumn .card {
     height: 153vh;
+}
+
+.innerbox{
+    width: 100%;
+    height:100%;
+    background-color: #2A2A2A;
+    border: 0.05vh solid white;
 }
   
 /* Clear floats after the columns */
@@ -68,7 +70,7 @@
   
 /* Responsive layout - when the screen is less than 800px wide,
 make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .leftcolumn, .rightcolumn {
       width: 100%;
       padding: 0;
