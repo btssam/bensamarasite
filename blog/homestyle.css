@@ -18,9 +18,22 @@
     width: 50%;
     float: left;
     padding: 1.6vw;
+    height: 10vh;
+}
+
+.leftcolumn .thumbnail{
+    height:40vh;
+}
+
+.thumbnail img{
+    width: 100%;
+    height: 100%;
 }
 
 /* Text for card */
+.cardtext{
+    background-color: #2A2A2A;
+}
 .cardtext p{
     font-size: 3.4vh;
     float: left;
