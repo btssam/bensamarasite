@@ -63,6 +63,15 @@
 .innerbox:hover{
     opacity: 50%;
 }
+
+/* Second column effects */
+
+.rightcolumn .card a:active{
+    color: #A94F2A;
+}
+.rightcolumn .card a:hover{
+    color: #a57967;
+}
   
 /* Clear floats after the columns */
 .row:after {
