@@ -1,0 +1,14 @@
+/* Selections */
+.selection img{
+    margin: auto;
+    display: block;
+    width: 52vw;
+    height: 52.5vh;
+}
+.selection:hover{
+    opacity: 0.5;
+}
+.selection p{
+    margin-bottom: 1.3vw;
+    margin-top: 0.3vw;
+}
