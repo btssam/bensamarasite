@@ -59,6 +59,10 @@
     background-color: #2A2A2A;
     border: 0.05vh solid white;
 }
+
+.innerbox:hover{
+    opacity: 50%;
+}
   
 /* Clear floats after the columns */
 .row:after {

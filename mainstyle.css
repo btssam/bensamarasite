@@ -1,3 +1,4 @@
+/* General Styling */
 body{
     background-color: #2A2A2A;
 }
@@ -9,21 +10,6 @@ h1, h2, h3, h4, h5, p, ul{
     list-style-type: none;
 }
 
-a{
-    text-decoration: none;
-}
-
-.header{
-    border-bottom: 0.75vh solid #A94F2A;
-    padding-bottom: 0vh;
-    font-size: 1.7vw;
-    letter-spacing: 0.4vw;
-}
-    
-.second-header h2{
-    padding-top: 1vh;
-    font-size: 1.2vw;
-}
 h2{
     font-size: 2.2vw;
 }
@@ -40,7 +26,24 @@ p{
     font-size: 0.8vw;
 }
 
+a{
+    text-decoration: none;
+}
 
+/* Header */
+.header{
+    border-bottom: 0.75vh solid #A94F2A;
+    padding-bottom: 0vh;
+    font-size: 1.7vw;
+    letter-spacing: 0.4vw;
+}
+    
+.second-header h2{
+    padding-top: 1vh;
+    font-size: 1.2vw;
+}
+
+/* Selections */
 .selection img{
     margin: auto;
     display: block;
@@ -55,7 +58,7 @@ p{
     margin-top: 0.3vw;
 }
 
-
+/* Bottom Nav Bar */
 .bottombar{
     margin-top: 5vh;
     background-color: #555555;
@@ -85,7 +88,7 @@ p{
     color: #A94F2A;
 }
 
-
+/* For smaller screens (mobile) */
 @media screen and (max-width: 1000px) {
 
     .header{
