@@ -70,10 +70,10 @@
 
 /* Second column effects */
 
-.rightcolumn .card a:active{
+.rightcolumn .card a h3:active{
     color: #A94F2A;
 }
-.rightcolumn .card a:hover{
+.rightcolumn .card a h3:hover{
     color: #a57967;
 }
   
@@ -98,7 +98,7 @@ make the two columns stack on top of each other instead of next to each other */
 
     /* Text for card */
     .cardtext p{
-        font-size: 2.0vh;
+        font-size: 4.2vw;
         width: 45%;
         padding-left: 2vw;
     }
@@ -108,6 +108,15 @@ make the two columns stack on top of each other instead of next to each other */
     }
     .card h5{
         font-size:1.8vw;
+    }
+
+    /* Card Effect */
+    .innerbox{
+        border: 0.1vh solid white;
+    }
+
+    .card {
+        padding: 2vw;
     }
 
 }
