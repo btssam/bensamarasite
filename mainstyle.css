@@ -38,8 +38,7 @@ a{
 }
     
 .second-header h2{
-    padding-top: 1vh;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
 }
 
 .header h1:active{
@@ -80,12 +79,12 @@ a{
 @media screen and (max-width: 1000px) {
 
     .header{
-        border-bottom: 1.6vh solid #A94F2A;
-        font-size: 7.2vw;
+        border-bottom: 1.1vh solid #A94F2A;
+        font-size: 5.8vw;
         letter-spacing: 0.6vw;
     }
     .second-header h2{
-        font-size: 4.1vw;
+        font-size: 3.5vw;
     }
     h2{
         font-size: 5.4vw;
@@ -97,7 +96,7 @@ a{
         font-size: 3.6vw;
     }
     h5{
-        font-size:1.4vw;
+        font-size:1.2vw;
     }
     p{
         font-size: 3.6vw;
