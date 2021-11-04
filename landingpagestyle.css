@@ -12,3 +12,17 @@
     margin-bottom: 1.3vw;
     margin-top: 0.3vw;
 }
+
+/* For smaller screens (mobile) */
+@media screen and (max-width: 1000px) {
+
+.selection img{
+    width: 90vw;
+    height: 60vh;
+}
+.selection p{
+    margin-bottom: 5.4vw;
+    margin-top: 1.8vw;
+}
+
+}

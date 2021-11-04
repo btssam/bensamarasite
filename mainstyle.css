@@ -33,7 +33,7 @@ a{
 /* Header */
 .header{
     border-bottom: 0.75vh solid #A94F2A;
-    padding-bottom: 0vh;
+    padding-top: 0.24vh;
     font-size: 1.7vw;
     letter-spacing: 0.4vw;
 }
@@ -82,8 +82,7 @@ a{
         font-size: 7.2vw;
         letter-spacing: 0.6vw;
     }
-
-    .second-header{
+    .second-header h2{
         font-size: 4.1vw;
     }
     h2{
@@ -101,14 +100,6 @@ a{
     .bottombar{
         width: 80%;
         font-size: 3.4vw;
-    }
-    .selection img{
-        width: 90vw;
-        height: 60vh;
-    }
-    .selection p{
-        margin-bottom: 5.4vw;
-        margin-top: 1.8vw;
     }
 
 }
