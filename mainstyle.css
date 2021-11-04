@@ -41,7 +41,7 @@ a{
     font-size: 1.1vw;
 }
 
-.header h1:active{
+.header h1:active, h1:hover{
     color: #a57967;
 }
 
@@ -84,10 +84,10 @@ a{
         letter-spacing: 0.6vw;
     }
     .second-header h2{
-        font-size: 3.3vw;
+        font-size: 3.1vw;
     }
     h2{
-        font-size: 5.5vw;
+        font-size: 5.7vw;
     }
     h3{
         font-size: 4.1vw;
