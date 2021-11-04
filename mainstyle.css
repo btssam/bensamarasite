@@ -42,6 +42,10 @@ a{
     font-size: 1.2vw;
 }
 
+.header h1:active{
+    color: #a57967;
+}
+
 /* Bottom Nav Bar */
 .bottombar{
     margin-top: 5vh;
