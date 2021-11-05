@@ -12,6 +12,13 @@
     margin-bottom: 1.3vw;
     margin-top: 0.3vw;
 }
+.selection a{
+    width: 52vw;
+    height: 52.5vh + 0.8vw;
+
+    margin: auto;
+    display: block;
+}
 
 /* For smaller screens (mobile) */
 @media screen and (max-width: 1000px) {
