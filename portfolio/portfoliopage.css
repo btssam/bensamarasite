@@ -8,12 +8,19 @@
 }
 
 /*link*/
-a h4:hover{
+.link-to-blog a h4:hover{
     color: #a57967;
 }
 
-a h4:active{
+.link-to-blog a h4:active{
     color: #A94F2A;
+}
+
+.link-to-blog{
+    background-color:#555555;
+    margin: auto;
+    width: 8%;
+    border: .05vh solid white;
 }
 
 /*images*/
@@ -60,6 +67,15 @@ a h4:active{
             width: 90vw;
             margin-bottom: 5vw;
         }
+
+        .link-to-blog{
+            width: 25%;
+            border: .1vh solid white;
+            margin-bottom: 5vw;
+        }
+
+
+
 
     }
 
