@@ -1,3 +1,4 @@
+/*paragraph*/
 .blurb {
     padding-left: 25vw;
     padding-right: 25vw;
@@ -6,6 +7,7 @@
     font-size:0.9vw;
 }
 
+/*link*/
 a h4:hover{
     color: #a57967;
 }
@@ -14,6 +16,7 @@ a h4:active{
     color: #A94F2A;
 }
 
+/*images*/
 .images-set img{
     height: 65vh;
     width: 50vw;
@@ -30,4 +33,34 @@ a h4:active{
     width: 50vw;
     margin-top: 1vw;
     margin-bottom: 1vw;
+}
+
+/* For smaller screens (mobile) */
+@media screen and (max-width: 1000px) {
+
+    @media screen and (orientation:portrait) {
+
+        .blurb {
+            padding-left: 8vw;
+            padding-right: 8vw;
+        }
+
+        .blurb p{
+            font-size: 3.6vw;
+        }
+
+        .images-set img{
+            height: 60vh;
+            width: 90vw;
+            
+        }
+        
+        .images-set a{
+            height: 60vh;
+            width: 90vw;
+            margin-bottom: 5vw;
+        }
+
+    }
+
 }
