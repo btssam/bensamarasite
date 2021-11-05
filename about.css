@@ -1,0 +1,19 @@
+/* About Page */
+
+.my-photo{
+    padding-left: 25vw;
+    float: left;
+}
+.my-photo img{
+    height: 85vh;
+}
+
+.about-me{
+    height: 85vh;
+    padding-right: 25vw;
+    padding-left: 52vw;
+    padding-top: 2vw;
+}
+.about-me p{
+    font-size:0.9vw;
+}
