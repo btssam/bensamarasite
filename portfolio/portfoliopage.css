@@ -5,3 +5,11 @@
 .blurb p{
     font-size:0.9vw;
 }
+
+a h4:hover{
+    color: #a57967;
+}
+
+a h4:active{
+    color: #A94F2A;
+}

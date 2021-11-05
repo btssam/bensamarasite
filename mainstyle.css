@@ -43,8 +43,12 @@ a{
     font-size: 1.1vw;
 }
 
-.header h1:active, h1:hover{
+.header h1:hover{
     color: #a57967;
+}
+
+.header h1:active{
+    color: #A94F2A;
 }
 
 /* Bottom Nav Bar */
