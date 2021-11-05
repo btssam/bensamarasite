@@ -12,8 +12,35 @@
     height: 85vh;
     padding-right: 25vw;
     padding-left: 52vw;
-    padding-top: 2vw;
+    padding-top: 2vh;
 }
 .about-me p{
     font-size:0.9vw;
+}
+
+@media screen and (max-width: 1000px) {
+
+    @media screen and (orientation:portrait) {
+        .my-photo{
+            float: none;
+            padding-left: 0vw;
+        }
+        .my-photo img{
+            margin: auto;
+            display: block;
+            height: 50vh;
+        }
+        
+        .about-me{
+            height: unset;
+            padding-right: 8vw;
+            padding-left: 8vw;
+            padding-top: 3vh;
+            padding-bottom: 0vh;
+        }
+        .about-me p{
+            font-size:3.6vw;
+        }
+    }
+
 }
