@@ -13,3 +13,22 @@ a h4:hover{
 a h4:active{
     color: #A94F2A;
 }
+
+
+.images-set img{
+    height: 65vh;
+    width: 50vw;
+}
+
+.images-set a:hover{
+    opacity: 50%;
+}
+
+.images-set a{
+    display: block;
+    margin: auto;
+    height: 65vh;
+    width: 50vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
