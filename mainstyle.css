@@ -78,32 +78,36 @@ a{
 /* For smaller screens (mobile) */
 @media screen and (max-width: 1000px) {
 
-    .header{
-        border-bottom: 1.1vh solid #A94F2A;
-        font-size: 5.8vw;
-        letter-spacing: 0.6vw;
-    }
-    .second-header h2{
-        font-size: 3.1vw;
-    }
-    h2{
-        font-size: 5.7vw;
-    }
-    h3{
-        font-size: 4.1vw;
-    }
-    h4{
-        font-size: 3.6vw;
-    }
-    h5{
-        font-size:1.2vw;
-    }
-    p{
-        font-size: 3.6vw;
-    }
-    .bottombar{
-        width: 80%;
-        font-size: 3.4vw;
+    @media screen and (orientation:portrait) {
+
+        .header{
+            border-bottom: 1.1vh solid #A94F2A;
+            font-size: 5.8vw;
+            letter-spacing: 0.6vw;
+        }
+        .second-header h2{
+            font-size: 3.1vw;
+        }
+        h2{
+            font-size: 5.7vw;
+        }
+        h3{
+            font-size: 4.1vw;
+        }
+        h4{
+            font-size: 3.6vw;
+        }
+        h5{
+            font-size:1.2vw;
+        }
+        p{
+            font-size: 3.6vw;
+        }
+        .bottombar{
+            width: 80%;
+            font-size: 3.4vw;
+        }
+
     }
 
 }
