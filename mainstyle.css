@@ -35,6 +35,8 @@ a{
     border-bottom: 0.75vh solid #A94F2A;
     font-size: 1.7vw;
     letter-spacing: 0.4vw;
+    line-height: 0%;
+    padding-top: 1vh;
 }
     
 .second-header h2{

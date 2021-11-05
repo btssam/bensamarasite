@@ -3,6 +3,7 @@
 .my-photo{
     padding-left: 25vw;
     float: left;
+    padding-right: 2vw;
 }
 .my-photo img{
     height: 85vh;
@@ -11,8 +12,8 @@
 .about-me{
     height: 85vh;
     padding-right: 25vw;
-    padding-left: 52vw;
     padding-top: 2vh;
+    overflow-y: auto;
 }
 .about-me p{
     font-size:0.9vw;
