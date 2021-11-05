@@ -23,3 +23,28 @@
     margin:auto;
     padding: 3vw;
 }
+
+@media screen and (max-width: 1000px) {
+
+    @media screen and (orientation:portrait) {
+
+        .blogpost{
+            padding: 2vw;
+            width: 95%;
+        }
+
+        .posttext{
+            border: 0.1vh solid white;
+        }
+
+        .blogpost h2{
+            padding-left: 3vw;
+        }
+
+        .blogpost p{
+            font-size: 3.6vw;
+            padding: 3vw;
+        }
+    }
+
+}
