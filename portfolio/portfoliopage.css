@@ -42,6 +42,14 @@
     margin-bottom: 1vw;
 }
 
+/*embedded*/
+.embedded-twine{
+    display:block;
+    margin: auto;
+    height: 90vh;
+    width: 75vw;
+}
+
 /* For smaller screens (mobile) */
 @media screen and (max-width: 1000px) {
 
