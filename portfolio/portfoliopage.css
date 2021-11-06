@@ -7,16 +7,16 @@
     font-size:0.9vw;
 }
 
-/*link*/
-.link-to-blog a h4:hover{
+/*links*/
+a h4:hover{
     color: #a57967;
 }
 
-.link-to-blog a h4:active{
+a h4:active{
     color: #A94F2A;
 }
 
-.link-to-blog{
+.link-button{
     background-color:#555555;
     margin: auto;
     width: 8%;
@@ -44,6 +44,7 @@
 
 /*embedded*/
 .embedded-twine{
+    padding-top: 5vh;
     display:block;
     margin: auto;
     height: 90vh;
@@ -76,13 +77,17 @@
             margin-bottom: 5vw;
         }
 
-        .link-to-blog{
+        .link-button{
             width: 25%;
             border: .1vh solid white;
             margin-bottom: 5vw;
         }
 
-
+        .embedded-twine{
+            padding-top: 0vh;
+            height: 75vh;
+            width: 95vw;
+        }
 
 
     }
