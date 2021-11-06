@@ -51,6 +51,16 @@ a h4:active{
     width: 75vw;
 }
 
+.embedded-video{
+    display:block;
+    margin: auto;
+    height: 75vh;
+    width: 58vw;
+}
+.embedded-video iframe{
+    border: none;
+}
+
 /* For smaller screens (mobile) */
 @media screen and (max-width: 1000px) {
 
@@ -86,6 +96,12 @@ a h4:active{
         .embedded-twine{
             padding-top: 0vh;
             height: 75vh;
+            width: 95vw;
+        }
+
+        .embedded-video{
+            padding-top: 0vh;
+            height: 30vh;
             width: 95vw;
         }
 
