@@ -5,6 +5,7 @@
 }
 .blurb p{
     font-size:0.9vw;
+    text-align: left;
 }
 
 /*links*/
@@ -42,6 +43,30 @@ a h4:active{
     margin-bottom: 1vw;
 }
 
+.images-columns{
+    width: 100%;
+}
+
+.images-box{
+    box-sizing: border-box;
+    float: left;
+    width:50%;
+}
+
+.images-columns img{
+    height:65vh;
+    width: 45vw;
+    margin: auto;
+    padding-left: 2vw;
+    padding-top: 2vw;
+}
+
+.images-columns:after {
+    content: "";
+    display: table;
+    clear: both;
+}   
+
 /*embedded*/
 .embedded-twine{
     padding-top: 5vh;
@@ -52,11 +77,13 @@ a h4:active{
 }
 
 .embedded-video{
+    padding-top:5vh;
     display:block;
     margin: auto;
     height: 75vh;
     width: 58vw;
 }
+
 .embedded-video iframe{
     border: none;
 }
