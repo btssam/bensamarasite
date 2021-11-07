@@ -89,6 +89,11 @@ a h4:active{
     opacity:50%;
 }
 
+.vertical-img img{
+    height: 90vh;
+    width: 30vw;
+}
+
 /*
 .images-left{
     display: inline-block;
@@ -200,6 +205,11 @@ iframe{
             margin-bottom: 5vw;
             height: 60vh;
             width: 90vw;
+        }
+
+        .vertical-img img{
+            height: 85vh;
+            width: 80vw;
         }
 
         /*
