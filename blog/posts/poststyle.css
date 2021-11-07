@@ -21,9 +21,21 @@
 
 .blogpost p{
     text-align: left;
-    font-size: 1.5vw;
+    font-size: 0.9vw;
     margin:auto;
     padding: 3vw;
+}
+
+.blogpost a{
+    color: #a57967;
+}
+
+.blogpost a:hover{
+    color: #A94F2A;
+}
+
+.blogpost a:active{
+    color: #A94F2A;
 }
 
 /*imagees*/
