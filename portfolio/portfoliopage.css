@@ -67,11 +67,13 @@ a h4:active{
 
 
 .images-columns{
-    width: 100vw;
+    width: 63vw;
+    margin: auto;
+    display: block;
 }
 
 .images-box{
-    width: 50vw;
+    width: 50%;
     float: left;
 }
 
@@ -82,8 +84,8 @@ a h4:active{
     margin: auto;
 }
 .images-box a{
-    height: 50vh;
     width: 30vw;
+    display: inline-block;
 }
 
 /*
