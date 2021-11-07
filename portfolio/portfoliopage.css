@@ -94,6 +94,11 @@ a h4:active{
     width: 30vw;
 }
 
+.wide-img img{
+    height: 70vh;
+    width: 31vw;
+}
+
 /*
 .images-left{
     display: inline-block;
