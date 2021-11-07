@@ -1,3 +1,4 @@
+/*box*/
 .blogpost{
     background-color: #555555;
     padding: 1vw;
@@ -5,13 +6,14 @@
     margin:auto;
 }
 
-.posttext{
+.postbox{
     width: 100%;
     height: 100%;
     background-color: #2A2A2A;
     border: 0.05vh solid white;
 }
 
+/*text*/
 .blogpost h2{
     text-align: left;
     padding-left: 3vw;
@@ -24,19 +26,54 @@
     padding: 3vw;
 }
 
+/*imagees*/
+.images-set img{
+    height: 65vh;
+    width: 55vw;
+}
+
+.images-set a:hover{
+    opacity: 50%;
+}
+
+.images-set a{
+    display: block;
+    margin: auto;
+    height: 65vh;
+    width: 55vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+/*embed*/
+iframe{
+    height: 100%;
+    width: 100%;
+}
+
+.embedded-video{
+    display:block;
+    margin: auto;
+    height: 65vh;
+    width: 55vw;
+}
+
+
 @media screen and (max-width: 1000px) {
 
     @media screen and (orientation:portrait) {
 
+        /*box*/
         .blogpost{
             padding: 2vw;
             width: 95%;
         }
 
-        .posttext{
+        .postbox{
             border: 0.1vh solid white;
         }
 
+        /*text*/
         .blogpost h2{
             padding-left: 3vw;
         }
@@ -45,6 +82,27 @@
             font-size: 3.6vw;
             padding: 3vw;
         }
+
+        /*images*/
+        .images-set img{
+            height: 30vh;
+            width: 90vw;
+            
+        }
+        
+        .images-set a{
+            height: 30vh;
+            width: 90vw;
+            margin-bottom: 5vw;
+        }
+
+
+        /*embed*/
+        .embedded-video{
+            height: 30vh;
+            width: 90vw;
+        }
+
     }
 
 }
