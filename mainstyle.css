@@ -81,6 +81,21 @@ a{
     color: #A94F2A;
 }
 
+/*links*/
+.link-button{
+    background-color:#555555;
+    margin: auto;
+    width: 8vw;
+    border: .05vh solid white;
+}
+.link-button a h4:hover{
+    color: #a57967;
+}
+
+.link-button a h4:active{
+    color: #A94F2A;
+}
+
 /* For smaller screens (mobile) */
 @media screen and (max-width: 1000px) {
 
@@ -112,6 +127,11 @@ a{
         .bottombar{
             width: 80%;
             font-size: 3.4vw;
+        }
+        .link-button{
+            width: 25vw;
+            border: .1vh solid white;
+            margin-bottom: 5vw;
         }
 
     }

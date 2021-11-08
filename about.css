@@ -1,9 +1,8 @@
 /* About Page */
-
 .my-photo{
     padding-left: 25vw;
     float: left;
-    padding-right: 2vw;
+    padding-right: .9vw;
 }
 .my-photo img{
     height: 85vh;
