@@ -54,7 +54,7 @@
 }
 
 .rightcolumn .card {
-    height: 149.5vh;
+    height: initial;
 }
 
 .innerbox{
@@ -71,11 +71,14 @@
 
 /* Second column effects */
 
+.rightcolumn .card a h3{
+    color: #a57967;
+}
 .rightcolumn .card a h3:active{
     color: #A94F2A;
 }
 .rightcolumn .card a h3:hover{
-    color: #a57967;
+    color: #A94F2A;
 }
   
 /* Clear floats after the columns */
@@ -94,10 +97,6 @@ make the two columns stack on top of each other instead of next to each other */
         .leftcolumn, .rightcolumn {
         width: 100%;
         padding: 0;
-        }
-
-        .rightcolumn .card {
-            height: 22.5vh;
         }
 
         /* Text for card */
