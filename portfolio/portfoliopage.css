@@ -17,6 +17,19 @@ a h4:active{
     color: #A94F2A;
 }
 
+
+p a{
+    color: #a57967;
+}
+
+p a:hover{
+    color: #A94F2A;
+}
+
+p a:active{
+    color: #A94F2A;
+}
+
 /*images*/
 .images-set img{
     height: 65vh;
