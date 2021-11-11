@@ -92,7 +92,7 @@
 .blogbar{
     margin-top: 5vh;
     background-color: #555555;
-    width: 50%;
+    width: 40%;
     margin-left:auto;
     margin-right:auto;
     text-align: center;
@@ -100,7 +100,7 @@
 }
 .blogbar a{
     display:inline-block;
-    width: 30%;
+    width: 18%;
     color: #FFFFFF;
     padding-top: .5vh;
     padding-bottom: .5vh;
@@ -154,7 +154,7 @@ make the two columns stack on top of each other instead of next to each other */
 
         /*navbar*/
         .blogbar{
-            width: 80%;
+            width: 65%;
             font-size: 3.4vw;
         }
 
