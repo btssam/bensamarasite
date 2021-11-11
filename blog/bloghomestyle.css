@@ -87,6 +87,36 @@
     display: table;
     clear: both;
 }
+
+/*navbar*/
+.blogbar{
+    margin-top: 5vh;
+    background-color: #555555;
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    font-size: 0.8vw;
+}
+.blogbar a{
+    display:inline-block;
+    width: 30%;
+    color: #FFFFFF;
+    padding-top: .5vh;
+    padding-bottom: .5vh;
+}
+.blogbar a:active{
+    color: #A94F2A;
+    background-color: #2A2A2A;
+}
+.blogbar a:hover{
+    color: #a57967;
+    background-color: #2A2A2A;
+}
+.blogbar .navCurrent{
+    background-color: #2A2A2A;
+    color: #A94F2A;
+}
   
 /* Responsive layout - when the screen is less than 1000px wide,
 make the two columns stack on top of each other instead of next to each other */
@@ -120,6 +150,12 @@ make the two columns stack on top of each other instead of next to each other */
 
         .card {
             padding: 2vw;
+        }
+
+        /*navbar*/
+        .blogbar{
+            width: 80%;
+            font-size: 3.4vw;
         }
 
     }
