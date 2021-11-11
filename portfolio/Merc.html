@@ -12,16 +12,12 @@
 <tw-storydata name="Merc" startnode="1" creator="Twine" creator-version="2.3.14" ifid="214A01F5-A9D6-4B1E-B58B-BC2D2486FEDB" zoom="0.6" format="Harlowe" format-version="3.2.2" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-sidebar {
   display: none;
 }
-
-
-
-
-
-
-
-
-
-
+.visited{
+  color: rgb(78, 146, 227);
+}
+.visited:hover{
+  color: rgb(26, 197, 255);
+}
 
 
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
@@ -45,8 +41,8 @@
 
 </script><tw-tag name="Ch1" color="red"></tw-tag>,<tw-tag name="Ch2" color="red"></tw-tag>,<tw-tag name="Ch3" color="red"></tw-tag>,<tw-tag name="Ch4" color="red"></tw-tag>,<tw-tag name="Ch5" color="red"></tw-tag>,<tw-tag name="Ch6" color="red"></tw-tag>,<tw-tag name="Core" color="green"></tw-tag><tw-passagedata pid="1" name="Intro" tags="" position="379,137" size="200,100">#&lt;center&gt;Welcome to MERC!&lt;/center&gt;
 
-&lt;small&gt;©Game Deisgn, Story, Writing, Characters, and Code by Ben Samara&lt;/small&gt;
-&lt;small&gt;Made with Twine (twinery.org)&lt;/small&gt;
+&lt;small&gt;©Game Deisgn, Writing, and Code by Ben Samara&lt;/small&gt;
+&lt;small&gt;Made with Twine (&lt;a href=&#39;https://twinery.org&#39;&gt;twinery.org&lt;/a&gt;)&lt;/small&gt;
 
 [[Play|Introduction]] </tw-passagedata><tw-passagedata pid="2" name="Ready" tags="" position="438,389" size="100,100">&quot;This comes straight from the capital and pays a hefty sum. A member of the clergy has been kidnapped. Bishop Rafferty has been taken to the Ashenbark Forest, a two day trek from the nearby city of Coreston.
 	
@@ -376,7 +372,7 @@ Rafferty interjects, heatedly. &quot;Do not listen to this fool. I simply must h
 	
 	Rafferty has a look of complete exhaustion and desperation. &quot;Look at me. I&#39;m already covered in the filth of our tribulations and travels. What do you think my colleagues would think of me if I&#39;m surrounded by blade wielding ruffians. I would not have it. I can get on by myself.&quot;
 ]
-(link: &quot;Back&quot;)[(goto:$previousPassage)]</tw-passagedata><tw-passagedata pid="32" name="Investigate Rock" tags="" position="117.00000000000001,2561.3333333333335" size="100,100">You approach the bronze colored rock. It looks to be about fifty pounds, not something you could pick up and take with you for the duration of your journey. Upon further examination, it also seems to have some blue, green, and pink colors present. You determine it may be runite ore, a valuable material.
+(link: &quot;Back&quot;)[(goto:$previousPassage)]</tw-passagedata><tw-passagedata pid="32" name="Investigate Rock" tags="" position="117,2561" size="100,100">You approach the bronze colored rock. It looks to be about fifty pounds, not something you could pick up and take with you for the duration of your journey. Upon further examination, it also seems to have some blue, green, and pink colors present. You determine it may be runite ore, a valuable material.
 
 [[Attempt to Collect Some]]
 [[Back|Choose Left Path]]</tw-passagedata><tw-passagedata pid="33" name="Investigate Mushroom" tags="" position="275,2560" size="100,100">(set: $hasMush to 1)You approach the mysterious glowing mushroom carefully.
@@ -403,7 +399,7 @@ The final fur has a rudementary depiction of a dragon&#39;s face - horns, snout,
 
 (if: $compan is 1)[Karos looks at each, slowly, and carefully. He nods.](else-if: $compan is 2)[Loren examines the banners, tilts her head for a moment, then looks toward you and nods.](else:)[Error, no companion set] You determine you are heading in the right direction.
 
-[[Back|Choose Left Path]]</tw-passagedata><tw-passagedata pid="35" name="Test Mushroom On Companion" tags="" position="351.3333333333333,2690.6666666666665" size="100,100">(set: $compApproval to $compApproval-1)(set: $karma to $karma-1)&lt;i&gt;((if: $compan is 2)[Loren](else-if: $compan is 1)[Karos](else:)[Error, No companion set.] disapproves)&lt;/i&gt;
+[[Back|Choose Left Path]]</tw-passagedata><tw-passagedata pid="35" name="Test Mushroom On Companion" tags="" position="351,2690" size="100,100">(set: $compApproval to $compApproval-1)(set: $karma to $karma-1)&lt;i&gt;((if: $compan is 2)[Loren](else-if: $compan is 1)[Karos](else:)[Error, No companion set.] disapproves)&lt;/i&gt;
 
 &lt;i&gt; (Your karma decreases) &lt;/i&gt;
 
@@ -1924,7 +1920,7 @@ You find the stables and your steed. You provide him a carrot and pet his large 
 
 [[The End]]</tw-passagedata><tw-passagedata pid="117" name="The End" tags="" position="534,8089" size="100,100">Congratulations!
 
-(link: &quot;Play Again?&quot;)[(goto: &quot;Intro&quot;)]</tw-passagedata><tw-passagedata pid="118" name="Attempt to Collect Some" tags="" position="0,2596.333333333333" size="100,100">You and (if: $compan is 1)[Karos](else-if: $compan is 2)[Loren](else:)[Error, no companion set] attempt to garner a chunk of ore from this large, shining rock. Without any proper pickaxe to use, you first start by digging the point of your shield into the rock.This effort leaves naught but a scratch upon the runite deposit.
+(link: &quot;Play Again?&quot;)[(goto: &quot;Intro&quot;)]</tw-passagedata><tw-passagedata pid="118" name="Attempt to Collect Some" tags="" position="0,2596" size="100,100">You and (if: $compan is 1)[Karos](else-if: $compan is 2)[Loren](else:)[Error, no companion set] attempt to garner a chunk of ore from this large, shining rock. Without any proper pickaxe to use, you first start by digging the point of your shield into the rock.This effort leaves naught but a scratch upon the runite deposit.
 
 (if: $compan is 1)[Karos steps forward, unsheathes his axes, and swings heavily at the stone. He really seems to be putting all his might into it, yet to no avail. After a few moments, it becomes clear to both of you that there is no way for you to retrieve any runite without the proper tools.](else-if: $compan is 2)[Loren steps forward and says, &quot;I suppose I ought to give it a try myself.&quot; She unsheathes her long dagger and scraps it alongs its edge, futilely. After a few moments, she stops and stands up, saying, &quot;Well, that may have sharpened my blade a bit, but that&#39;s about all we&#39;ll get out of this.&quot;](else:)[Error, no companion set]
 
