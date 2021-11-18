@@ -70,6 +70,10 @@ iframe{
     width: 55vw;
 }
 
+.embedded-video iframe{
+    border: none;
+}
+
 
 @media screen and (max-width: 1000px) {
 
