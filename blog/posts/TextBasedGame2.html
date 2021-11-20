@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ben Samara</title>
+        <link rel='stylesheet' type='text/css' href='../../mainstyle.css'>
+        <link rel='stylesheet' type='text/css' href='poststyle.css'>
+        <link rel="icon" href="../../Images/MyIconBlack.png">
+    </head>
+
+
+    <body>
+    
+    <div class ='header'>
+        <a href='../../index.html'>
+        <h1>Ben Samara</h1>
+        </a>
+    </div>
+
+    <div class ='second-header'>
+        <h2>Game Designer<br>
+        Art and Programming Generalist<br>
+        </h2>
+    </div>
+
+    <h2>Blog</h2>
+
+
+    <div class = 'blogpost'>
+        <div class = 'postbox'>
+
+            <h2>Text-Based Game (update #2)</h2>
+
+            <p>
+                (November 19th, 2021)
+                <br><br>
+                I’ve recently reached a large milestone for my text-based game and would like to provide a bit of information about how the
+                development has been going. I recently finished all of the scenes that I had planned out in my outline and feel as if I am in a
+                spot where it is a viable game. My next steps are to move on to testing and continue editing. I’ve been working on a
+                questionnaire for testers, but I haven’t begun testing lately. I did a little testing early on in the process.
+                <br><br>
+                Development:
+                <br><br>
+                Twine is an interesting program. It mostly works like a flowchart, connecting different passages together. I’ve included some
+                screen shots here to help show you how it works.
+                <br><br>
+            </p>
+
+            <div class='images-set'>
+                <a href='../Images/TwineGame2/TwineFlowChart.png'> <img src='../Images/TwineGame2/TwineFlowChart.png'> </a>
+                <a href='../Images/TwineGame2/TwinePassage.png'> <img src='../Images/TwineGame2/TwinePassage.png'> </a>
+            </div>
+
+            <p>
+                There is a fair bit of basic programming involved in my particular game. It is really mostly just setting up variables, changing
+                them, and then using if-statements which check their value. I have variables set-up to track the karma, companion approval, and
+                the bishop’s approval throughout your play-through. This is able to be seen when the player checks their status, but also has an
+                effect on the epilogue, completely changing the dialogue there. I use some programming to track some of the links, like with the
+                ‘Check Status’ and ‘Ask Party For Advice’. These all actually link to the same passage and the code changes what is seen. I also
+                have a variable to track which companion you choose and use if-checks to determine which bits of dialogue or options for the next
+                passage are available. Many if-statements are used to determine whether or not to display certain text or options.
+                <br><br>
+                The program, Twine, builds an HTML file that plays the game, so there is also access to general HTML tags and CSS styling, as
+                well as even JavaScript. I mostly have used this to remove the back-button that is there by default, as that can be exploited
+                throughout the game, and to change some of the colors. You can also use these features to add images and sound.
+                <br><br>
+                Design:
+                <br><br>
+                In some sense, adventure games/text-based games generally have two different avenues of design. There are ones where certain
+                options cause your character to lose the game and you have to move back to a checkpoint/the beginning of the game and try again.
+                The other type is present in games where there is effectively no wrong answer that causes you to lose the game and no matter what
+                path you choose, you end up in the same spot, beating the game. My game is in the second category; no matter what you pick, you
+                end up successfully completing your mission. The truth is, the first category of games are also quite similar to the second, as
+                restarting the game every time you mess up will inevitably allow you to reach the correct solution as well. What I did implement
+                to actually make it feel as if your decisions ultimately matter is the tracking of morality/approval and its impact on the
+                epilogue.
+                <br><br>
+                Another point I’ve noticed through developing is that, you have to measure how long a particular passage is. I don’t think
+                anyone wants to read over a page at a time during a text-based game. However, some of what makes these games appealing, is the
+                detailed, evocative descriptions. It’s also relevant to make sure that no matter what path the player takes, they’re not having a
+                drastically different play-time or seeing drastically different length passages. I really won’t have a major sense of how my
+                general game-length is until I test more. And even then, I don’t think many players read very much nowadays, not that their input
+                wouldn’t still be valuable. I’d really like to find some testers that are active readers or enjoy playing text-based games like
+                visual novels. So it is a tough balance.
+                <br><br>
+                Frankly, I didn’t imagine I would be getting into writing this much when I started this project. I had always been interested in
+                it though. I enjoy reading quite a bit, I’ve liked my writing assignments in school, and I write a lot of notes/ideas/brief
+                blurbs in my notebooks. This is likely the largest creative writing project I’ve made. Also, just by virtue of it being a
+                branching story rather than a straight-forward novel, there is a lot of writing that needs to be done that players will not see
+                on a single play through. The player likely sees less than half the passages I wrote in a given play-through. All together, this
+                game is 29,865 words. From what I’ve read, the average novel is about 40,000+ words. So, it has been a significant amount of
+                writing. I had the outline done a long time ago and it really took a long time to fill out the details between each major plot
+                point.
+                <br><br>
+                I would also say that, although Twine is great, I don’t think it is the perfect program for making complex games and doesn’t
+                easily allow for dramatic changes to the game’s structure. You can do a lot with HTML/CSS/JS and with the Twine language, but it
+                gets complex. It’s not particularly easy to add new features like key-based input or porting to different devices. I’d still like
+                to use Twine for the time being, especially while I just iron out all the text itself, but if I wanted to move this project on, I
+                would likely end up porting it to the Godot game engine. This would make it easier to add new features, like animations and such,
+                but would also be a significant change in that I would be able to use the tools I learn making this game in Godot on other games
+                that aren’t even necessarily text-based.
+                <br><br>
+                Anyway, this has been an informative and fun process so far and I appreciate you reading about it.
+            </p>
+
+        </div>
+    </div>
+
+
+    <div class ='bottombar'>
+        <a href='../../index.html'>PORTFOLIO</a>
+        <a href='../home.html'>BLOG</a>
+        <a href='../../about.html'>ABOUT</a>
+    </div>
+    <h5>Website made by Ben Samara</h5>
+
+    
+    </body>
+</html>
