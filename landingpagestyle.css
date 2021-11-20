@@ -5,7 +5,7 @@
     width: 52vw;
     height: 52.5vh;
 }
-.selection:hover{
+.selection a:hover{
     opacity: 0.5;
 }
 .selection p{
