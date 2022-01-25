@@ -3,33 +3,72 @@
 <head>
     <meta charset="utf-8">
     <title>Ben Samara</title>
-    <link rel='stylesheet' type='text/css' href='homestyletest.css'>
+    <!--<link rel='stylesheet' type='text/css' href='homestyletest.css'> !-->
     <link rel="icon" href="../Images/MyIconBlack.png">
+
+    <style>
+    .grid-wrapper{
+        display: grid;
+        grid-template-columns: 75fr 25fr;
+        grid-gap: 1em;
+    }
+
+    .grid-wrapper > div{
+        background: #eee;
+        padding: 1em;
+    }
+
+    .grid-wrapper > div:nth-child(odd){
+        background: #aaa
+    }
+
+    .rightcolumn1{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .rightcolumn2{
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .leftcolumn{
+        align-self: center;
+        grid-column: 1;
+        grid-auto-rows: (100px, auto);
+    }
+    </style>
 </head>
 
 <body>
-    <div class="grid-wrapper">
-        <div>
+    <div class = "grid-wrapper">
+        <div class = 'leftcolumn'>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ducimus ut nihil, unde magnam totam voluptatem atque voluptatibus nostrum minima quam nesciunt praesentium distinctio, molestias non ipsum inventore est ullam quisquam itaque? Pariatur, ipsam a sunt non accusamus architecto fugiat. Ut cum cumque doloribus exercitationem? Atque incidunt, repellat corporis recusandae voluptate sapiente, eaque consequatur sed eligendi ab facere reiciendis debitis quis harum eum neque voluptatibus dicta autem nobis vero earum rem iure voluptas excepturi? Unde expedita animi reiciendis assumenda illum.
         </div>
         
-        <div>
+        <div class = 'leftcolumn'>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ducimus ut nihil, unde magnam totam voluptatem atque voluptatibus nostrum minima quam nesciunt praesentium distinctio, molestias non ipsum inventore est ullam quisquam itaque? Pariatur, ipsam a sunt non accusamus architecto fugiat. Ut cum cumque doloribus exercitationem? Atque incidunt, repellat corporis recusandae voluptate sapiente, eaque consequatur sed eligendi ab facere reiciendis debitis quis harum eum neque voluptatibus dicta autem nobis vero earum rem iure voluptas excepturi? Unde expedita animi reiciendis assumenda illum.
         </div>
 
-        <div>
+        <div class = 'leftcolumn'>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ducimus ut nihil, unde magnam totam voluptatem atque voluptatibus nostrum minima quam nesciunt praesentium distinctio, molestias non ipsum inventore est ullam quisquam itaque? Pariatur, ipsam a sunt non accusamus architecto fugiat. Ut cum cumque doloribus exercitationem? Atque incidunt, repellat corporis recusandae voluptate sapiente, eaque consequatur sed eligendi ab facere reiciendis debitis quis harum eum neque voluptatibus dicta autem nobis vero earum rem iure voluptas excepturi? Unde expedita animi reiciendis assumenda illum.
         </div>
 
-        <div>
+        <div class = 'leftcolumn'>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ducimus ut nihil, unde magnam totam voluptatem atque voluptatibus nostrum minima quam nesciunt praesentium distinctio, molestias non ipsum inventore est ullam quisquam itaque? Pariatur, ipsam a sunt non accusamus architecto fugiat. Ut cum cumque doloribus exercitationem? Atque incidunt, repellat corporis recusandae voluptate sapiente, eaque consequatur sed eligendi ab facere reiciendis debitis quis harum eum neque voluptatibus dicta autem nobis vero earum rem iure voluptas excepturi? Unde expedita animi reiciendis assumenda illum.
         </div>
 
-        <div>
+        <div class = 'leftcolumn'>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ducimus ut nihil, unde magnam totam voluptatem atque voluptatibus nostrum minima quam nesciunt praesentium distinctio, molestias non ipsum inventore est ullam quisquam itaque? Pariatur, ipsam a sunt non accusamus architecto fugiat. Ut cum cumque doloribus exercitationem? Atque incidunt, repellat corporis recusandae voluptate sapiente, eaque consequatur sed eligendi ab facere reiciendis debitis quis harum eum neque voluptatibus dicta autem nobis vero earum rem iure voluptas excepturi? Unde expedita animi reiciendis assumenda illum.
         </div>
 
-        <div>
+        <div class = 'leftcolumn'>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ducimus ut nihil, unde magnam totam voluptatem atque voluptatibus nostrum minima quam nesciunt praesentium distinctio, molestias non ipsum inventore est ullam quisquam itaque? Pariatur, ipsam a sunt non accusamus architecto fugiat. Ut cum cumque doloribus exercitationem? Atque incidunt, repellat corporis recusandae voluptate sapiente, eaque consequatur sed eligendi ab facere reiciendis debitis quis harum eum neque voluptatibus dicta autem nobis vero earum rem iure voluptas excepturi? Unde expedita animi reiciendis assumenda illum.
+        </div>
+
+        <div class = "rightcolumn1">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ducimus ut nihil, unde magnam totam voluptatem atque voluptatibus nostrum minima quam nesciunt praesentium distinctio, molestias non ipsum inventore est ullam quisquam itaque? Pariatur, ipsam a sunt non accusamus architecto fugiat. Ut cum cumque doloribus exercitationem? Atque incidunt, repellat corporis recusandae voluptate sapiente, eaque consequatur sed eligendi ab facere reiciendis debitis quis harum eum neque voluptatibus dicta autem nobis vero earum rem iure voluptas excepturi? Unde expedita animi reiciendis assumenda illum.
+        </div>
+
+        <div class = "rightcolumn2">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ducimus ut nihil, unde magnam totam voluptatem atque voluptatibus nostrum minima quam nesciunt praesentium distinctio, molestias non ipsum inventore est ullam quisquam itaque? Pariatur, ipsam a sunt non accusamus architecto fugiat. Ut cum cumque doloribus exercitationem? Atque incidunt, repellat corporis recusandae voluptate sapiente, eaque consequatur sed eligendi ab facere reiciendis debitis quis harum eum neque voluptatibus dicta autem nobis vero earum rem iure voluptas excepturi? Unde expedita animi reiciendis assumenda illum.
         </div>
     </div>
