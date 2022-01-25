@@ -3,23 +3,22 @@
 <head>
     <meta charset="utf-8">
     <title>Ben Samara</title>
+    <link rel='stylesheet' type='text/css' href='../mainstyle.css'>
     <!--<link rel='stylesheet' type='text/css' href='homestyletest.css'> !-->
     <link rel="icon" href="../Images/MyIconBlack.png">
 
     <style>
     .grid-wrapper{
+        color: #FFFFFF;
         display: grid;
         grid-template-columns: 75fr 25fr;
         grid-gap: 1em;
     }
 
     .grid-wrapper > div{
-        background: #eee;
-        padding: 1em;
-    }
-
-    .grid-wrapper > div:nth-child(odd){
-        background: #aaa
+        background-color: #555555;
+        padding: 1vw;
+        margin-top: 3vh;
     }
 
     .rightcolumn1{
@@ -31,9 +30,17 @@
         grid-row: 2;
     }
     .leftcolumn{
-        align-self: center;
         grid-column: 1;
-        grid-auto-rows: (100px, auto);
+        grid-auto-rows: 45vh;
+    }
+
+
+    .innerbox{
+        width: 100%;
+        height: 100%;
+        background-color: #2A2A2A;
+        border: 0.5vh solid white;
+        overflow-y: hidden;
     }
     </style>
 </head>
@@ -41,7 +48,9 @@
 <body>
     <div class = "grid-wrapper">
         <div class = 'leftcolumn'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ducimus ut nihil, unde magnam totam voluptatem atque voluptatibus nostrum minima quam nesciunt praesentium distinctio, molestias non ipsum inventore est ullam quisquam itaque? Pariatur, ipsam a sunt non accusamus architecto fugiat. Ut cum cumque doloribus exercitationem? Atque incidunt, repellat corporis recusandae voluptate sapiente, eaque consequatur sed eligendi ab facere reiciendis debitis quis harum eum neque voluptatibus dicta autem nobis vero earum rem iure voluptas excepturi? Unde expedita animi reiciendis assumenda illum.
+            <div class = 'innerbox'>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ducimus ut nihil, unde magnam totam voluptatem atque voluptatibus nostrum minima quam nesciunt praesentium distinctio, molestias non ipsum inventore est ullam quisquam itaque? Pariatur, ipsam a sunt non accusamus architecto fugiat. Ut cum cumque doloribus exercitationem? Atque incidunt, repellat corporis recusandae voluptate sapiente, eaque consequatur sed eligendi ab facere reiciendis debitis quis harum eum neque voluptatibus dicta autem nobis vero earum rem iure voluptas excepturi? Unde expedita animi reiciendis assumenda illum.
+            </div>
         </div>
         
         <div class = 'leftcolumn'>
