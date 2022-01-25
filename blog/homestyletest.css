@@ -1,0 +1,14 @@
+.grid-wrapper{
+    display: grid;
+    grid-template-columns: 75fr 25fr;
+    grid-gap: 1em;
+}
+
+.grid-wrapper > div{
+    background: #eee;
+    padding: 1em;
+}
+
+.grid-wrapper > div:nth-child(odd){
+    background: #aaa
+}
