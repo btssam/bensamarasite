@@ -5,11 +5,11 @@
     padding-right: .9vw;
 }
 .my-photo img{
-    height: 85vh;
+    height: 60vh;
 }
 
 .about-me{
-    height: 85vh;
+    height: 60vh;
     padding-right: 25vw;
     padding-top: 2vh;
     overflow-y: auto;
