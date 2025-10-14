@@ -55,7 +55,7 @@ a{
 }
 
 /* Bottom Nav Bar */
-.bottombar{
+.navbar{
     margin-top: 5vh;
     background-color: #555555;
     width: 50%;
@@ -64,22 +64,22 @@ a{
     text-align: center;
     font-size: 0.8vw;
 }
-.bottombar a{
+.navbar a{
     display:inline-block;
     width: 30%;
     color: #FFFFFF;
     padding-top: .5vh;
     padding-bottom: .5vh;
 }
-.bottombar a:active{
+.navbar a:active{
     color: #A94F2A;
     background-color: #2A2A2A;
 }
-.bottombar a:hover{
+.navbar a:hover{
     color: #a57967;
     background-color: #2A2A2A;
 }
-.bottombar .navCurrent{
+.navbar .navCurrent{
     background-color: #2A2A2A;
     color: #A94F2A;
 }
@@ -127,7 +127,7 @@ a{
         p{
             font-size: 3.6vw;
         }
-        .bottombar{
+        .navbar{
             width: 80%;
             font-size: 3.4vw;
         }
